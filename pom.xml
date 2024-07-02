@@ -11,6 +11,7 @@
 	<groupId>com.dodo</groupId>
 	<artifactId>Examples</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>Examples</name>
 	<description>Demo projects for Spring Boot</description>
 	<url/>
@@ -20,6 +21,9 @@
 	<developers>
 		<developer/>
 	</developers>
+	<modules>
+		<module>spring-mongo-rest-api</module>
+	</modules>
 	<scm>
 		<connection/>
 		<developerConnection/>

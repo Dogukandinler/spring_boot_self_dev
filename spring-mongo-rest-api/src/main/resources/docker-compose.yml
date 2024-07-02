@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+
+  app:
+    image: mongo
+    ports:
+      - "8085:8085"
+    depends_on:
+      - mongo
