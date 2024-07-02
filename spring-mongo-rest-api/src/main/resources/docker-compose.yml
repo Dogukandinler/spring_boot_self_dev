@@ -9,6 +9,6 @@ services:
   app:
     image: mongo
     ports:
-      - "8085:8085"
+      - "8081:8081"
     depends_on:
       - mongo
