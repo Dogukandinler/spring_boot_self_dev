@@ -23,6 +23,7 @@
 	</developers>
 	<modules>
 		<module>spring-mongo-rest-api</module>
+		<module>spring-boot-api-doc</module>
 	</modules>
 	<scm>
 		<connection/>
