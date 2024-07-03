@@ -1,8 +1,8 @@
 package com.dodo;
 
 
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.media.Schema.AccessMode;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -14,13 +14,11 @@ import java.util.Date;
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
-@ApiModel(value = "My pet model" , description = "My pet")
+@Schema(description = "My User Clas")
 public class Pet {
-    @ApiModelProperty(value = "Pet Model's id field")
+    @Schema(description = "User's ID", example = "1", accessMode = AccessMode.READ_ONLY)
     private int id;
-    @ApiModelProperty (value = "Pet Model's name field")
     private String name;
-    @ApiModelProperty(value = "Pet Model's date field")
     private Date date;
 
 
