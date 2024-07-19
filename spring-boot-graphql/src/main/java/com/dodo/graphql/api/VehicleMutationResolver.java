@@ -1,5 +1,6 @@
 package com.dodo.graphql.api;
 
+
 import com.coxautodev.graphql.tools.GraphQLMutationResolver;
 import com.dodo.graphql.dto.VehicleDto;
 import com.dodo.graphql.entity.Vehicle;

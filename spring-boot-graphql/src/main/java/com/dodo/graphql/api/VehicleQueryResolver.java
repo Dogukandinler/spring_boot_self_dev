@@ -1,5 +1,7 @@
 package com.dodo.graphql.api;
 
+
+
 import com.coxautodev.graphql.tools.GraphQLQueryResolver;
 import com.dodo.graphql.entity.Vehicle;
 import com.dodo.graphql.repository.VehicleRepository;
