@@ -25,6 +25,7 @@
 		<module>spring-mongo-rest-api</module>
 		<module>spring-boot-api-doc</module>
 		<module>spring-boot-aop</module>
+		<module>spring-boot-graphql</module>
 	</modules>
 	<scm>
 		<connection/>
