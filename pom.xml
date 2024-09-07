@@ -26,7 +26,8 @@
 		<module>spring-boot-api-doc</module>
 		<module>spring-boot-aop</module>
 		<module>spring-boot-graphql</module>
-	</modules>
+        <module>spring-boot-websocket</module>
+    </modules>
 	<scm>
 		<connection/>
 		<developerConnection/>
