@@ -28,6 +28,7 @@
 		<module>spring-boot-graphql</module>
         <module>spring-boot-websocket</module>
         <module>spring-boot-pagination</module>
+        <module>spring-boot-events</module>
     </modules>
 	<scm>
 		<connection/>
