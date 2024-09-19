@@ -27,6 +27,7 @@
 		<module>spring-boot-aop</module>
 		<module>spring-boot-graphql</module>
         <module>spring-boot-websocket</module>
+        <module>spring-boot-pagination</module>
     </modules>
 	<scm>
 		<connection/>

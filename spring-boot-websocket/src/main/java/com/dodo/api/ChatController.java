@@ -12,7 +12,6 @@ public class ChatController {
 
     @Autowired
     private SimpMessagingTemplate messagingTemplate;
-
     @MessageMapping("/chat")
     //@SendTo("/topic")
     //@SendToUser()
