@@ -31,6 +31,7 @@
         <module>spring-boot-events</module>
         <module>spring-boot-gridfs-fileupload</module>
         <module>spring-boot-exception-handling</module>
+        <module>spring-webflux-mongo</module>
     </modules>
 	<scm>
 		<connection/>
